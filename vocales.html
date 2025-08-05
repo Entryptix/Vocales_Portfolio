@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryan Ross Vocales | BSCS Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --accent-color: #2980b9;
+      --bg-color: #f5f7fa;
+      --text-color: #2d2d2d;
+      --card-bg: #ffffff;
+      --card-shadow: rgba(0, 0, 0, 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+
+    header, footer {
+      background-color: var(--primary-color);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: var(--primary-color);
+      margin-bottom: 20px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    p {
+      font-size: 1.05em;
+      margin-bottom: 15px;
+    }
+
+    .skills, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-top: 20px;
+    }
+
+    .skill, .project {
+      background-color: var(--card-bg);
+      padding: 25px;
+      border-radius: 10px;
+      flex: 1 1 300px;
+      box-shadow: 0 4px 12px var(--card-shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .skill:hover, .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    a:hover {
+      color: #1c5980;
+      text-decoration: underline;
+    }
+
+    footer p {
+      font-size: 0.95em;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bryan Ross Vocales</h1>
+    <p>BSCS Student · Aspiring Software Engineer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm a 4th-year Computer Science student with a passion for building scalable web applications and solving complex problems with code. I enjoy working on full-stack projects and am constantly learning new technologies like React, Node.js, and cloud services.
+    </p>
+    <p>
+      I'm seeking internship or junior developer opportunities where I can grow alongside experienced engineers and contribute meaningfully to impactful software.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill"><strong>Languages:</strong><br> Python, Java, C++, JavaScript</div>
+      <div class="skill"><strong>Web Development:</strong><br> HTML, CSS, Node.js</div>
+      <div class="skill"><strong>Tools & Databases:</strong><br> Git, MySQL, Linux, VS Code</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Student Management System</h3>
+        <p>Java desktop app with MySQL backend to manage academic records.</p>
+      </div>
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Fully responsive personal site using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do List App</h3>
+        <p>Task manager built with React and Firebase, supporting real-time updates.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bryanrossvocales@gmail.com">bryanrossvocales@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/bryanrossvocales" target="_blank">github.com/bryanrossvocales</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/bryanrossvocales" target="_blank">linkedin.com/in/bryanrossvocales</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bryan Ross Vocales. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
